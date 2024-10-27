@@ -1,0 +1,35 @@
+:root {
+	--color-holiday: yellow;
+	--color-sunday: red;
+	--color-saturday: blue;
+}
+
+.date-holiday {
+  background-color: green;
+}
+.date-sunday {
+  background-color: #f8d7da;
+}
+.date-saturday {
+  background-color: #d1ecf1;
+}
+
+
+.date-holiday a {
+	color: #000 !important;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 3px;
+}
+.date-sunday a {
+	color: var(--color-sunday) !important;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 3px;
+}
+.date-saturday a {
+	color: var(--color-saturday) !important;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 3px;
+}
