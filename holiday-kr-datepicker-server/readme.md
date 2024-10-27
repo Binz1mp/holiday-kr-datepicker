@@ -2,7 +2,7 @@
 `datepicker.js`에 응용하기 위해 데이터 구조를 바꿨습니다.   
 Tested Node version: `v20.17.0`
 
-## 예시
+## json 예시
 ```json
 {
   "20220101": {
@@ -19,8 +19,7 @@ Tested Node version: `v20.17.0`
     "type": 0,
     "title": "설날",
     "year": "2022"
-  },
-	// ...
+  }
 }
 ```
 
