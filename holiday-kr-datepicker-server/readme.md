@@ -1,4 +1,4 @@
-# 한국천문연구원 공휴일 제공 Open API 데이터 가져오기
+# 한국천문연구원 공휴일 제공 Open API 데이터 호출 서버
 `datepicker.js`에 응용하기 위해 데이터 구조를 바꿨습니다.   
 Tested Node version: `v20.17.0`
 

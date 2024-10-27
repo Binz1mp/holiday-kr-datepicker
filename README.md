@@ -3,4 +3,4 @@
 ## holiday-kr-datepicker-client
 한국천문연구원 공휴일 데이터 뷰어
 ## holiday-kr-datepicker-server
-한국천문연구원 공휴일 제공 Node.js 서버
+한국천문연구원 공휴일 제공 Open API 데이터 호출 서버
