@@ -11,12 +11,13 @@ app.use(cors());
 
 // 시간 차이 설정
 const timeDifferenceList = {
+  oneMonth: 31 * 24 * 60 * 60 * 1000, // 1개월
   oneDay: 24 * 60 * 60 * 1000, // 1일
   oneHour: 60 * 60 * 1000, // 1시간
   fiveMinute: 5 * 60 * 1000, // 5분
   oneMinute: 60 * 1000, // 1분
 };
-const timeDifference = timeDifferenceList.oneHour;
+const timeDifference = timeDifferenceList.oneMinute;
 const currentYear = new Date().getFullYear();
 const startYear = currentYear - 2;
 const endYear = currentYear + 2;
