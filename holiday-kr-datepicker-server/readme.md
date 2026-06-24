@@ -41,6 +41,6 @@ Tested Node version: `v20.17.0`
 ## .env
 ```sh
 # .env
-API_URL=http://apis.data.go.kr/B090041/openapi/service/SpcdeInfoService/getRestDeInfo
-SERVICE_KEY=인증키(Decoding)
+API_URL=https://apis.data.go.kr/B090041/openapi/service/SpcdeInfoService/getRestDeInfo
+SERVICE_KEY=인증키
 ```
